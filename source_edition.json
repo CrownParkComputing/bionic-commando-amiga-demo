@@ -1,0 +1,7 @@
+{
+  "edition": "demo",
+  "levels": 1,
+  "visibility": "public",
+  "assets": "Prepared build inputs only; no raw ROMs, MP3s, user preferences, screenshots, caches or workspace history.",
+  "notes": "Demo excludes later-level maps, actor placements and camera tables. Shared sprite/music banks retain the data linked by its jukebox and renderer."
+}

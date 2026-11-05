@@ -1,0 +1,72 @@
+; Generated original sound-ID descriptors, variable-length signed8bit PCM.
+NATIVE_SFX_COUNT EQU 11
+NATIVE_SFX_BANK_BYTES EQU 41402
+NATIVE_SFX_DESCRIPTOR_BYTES EQU 12
+NATIVE_BONUS_RETRIGGER EQU 18
+NativeSfxDescriptors:
+ ; $12 arm_latch
+ dc.w $0012
+ dc.l 0
+ dc.w 421,465,0
+ ; $13 arm_launch
+ dc.w $0013
+ dc.l 842
+ dc.w 1022,465,0
+ ; $14 player_gun
+ dc.w $0014
+ dc.l 2886
+ dc.w 1073,465,0
+ ; $15 special_pickup_reward
+ dc.w $0015
+ dc.l 5032
+ dc.w 1205,465,0
+ ; $16 mechanical_bird_death
+ dc.w $0016
+ dc.l 7442
+ dc.w 1599,465,0
+ ; $19 heavy_projectile_launch
+ dc.w $0019
+ dc.l 10640
+ dc.w 803,465,0
+ ; $1A heavy_soldier_death
+ dc.w $001A
+ dc.l 12246
+ dc.w 888,465,0
+ ; $1E gate_and_enemy_explosion
+ dc.w $001E
+ dc.l 14022
+ dc.w 3058,465,0
+ ; $20 player_fatal_death
+ dc.w $0020
+ dc.l 20138
+ dc.w 1643,465,0
+ ; $22 hive_head_buzz
+ dc.w $0022
+ dc.l 23424
+ dc.w 7616,465,100
+ ; $24 stage_bonus_counting_loop
+ dc.w $0024
+ dc.l 38656
+ dc.w 1373,465,18
+SFX_NATIVE_12_OFFSET EQU 0
+SFX_NATIVE_12_WORDS EQU 421
+SFX_NATIVE_13_OFFSET EQU 842
+SFX_NATIVE_13_WORDS EQU 1022
+SFX_NATIVE_14_OFFSET EQU 2886
+SFX_NATIVE_14_WORDS EQU 1073
+SFX_NATIVE_15_OFFSET EQU 5032
+SFX_NATIVE_15_WORDS EQU 1205
+SFX_NATIVE_16_OFFSET EQU 7442
+SFX_NATIVE_16_WORDS EQU 1599
+SFX_NATIVE_19_OFFSET EQU 10640
+SFX_NATIVE_19_WORDS EQU 803
+SFX_NATIVE_1A_OFFSET EQU 12246
+SFX_NATIVE_1A_WORDS EQU 888
+SFX_NATIVE_1E_OFFSET EQU 14022
+SFX_NATIVE_1E_WORDS EQU 3058
+SFX_NATIVE_20_OFFSET EQU 20138
+SFX_NATIVE_20_WORDS EQU 1643
+SFX_NATIVE_22_OFFSET EQU 23424
+SFX_NATIVE_22_WORDS EQU 7616
+SFX_NATIVE_24_OFFSET EQU 38656
+SFX_NATIVE_24_WORDS EQU 1373
