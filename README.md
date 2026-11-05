@@ -17,6 +17,10 @@ AGA/68020, 2 MB Chip and 8 MB Fast are required. Amiberry reduced uses 4x;
 full colour uses 64x plus immediate blits. PAL gameplay remains 50 Hz.
 CPU memory timing remains enabled so those clock multipliers apply.
 
+The maintained working project also keeps this public demo as `demo-source/`.
+This repository builds independently in any directory; its single-level data
+and Git history remain separate from the private full workspace.
+
 Music options: Arcade, original Amiga replay, and sampled stereo C64 recordings.
 C64 banks are included with HD/WHDLoad builds; ADF uses Arcade/Amiga music.
 The full edition reuses Round1 music in Round2 because no Round2 recording was supplied.
